@@ -1,0 +1,51 @@
+
+.columnista{
+	box-sizing: border-box;
+	border: 1px solid lightgrey;
+	height: 12em;
+	width: 100%;
+	padding-top: 1.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+}
+.marco{
+	background-color: lightgrey;
+	height: 50%;
+	padding: 1em;
+	vertical-align: baseline;
+}
+
+p.fecha{
+	font-size: 0.7em;
+}
+
+p.titulo{
+	font-weight: bold;
+}
+p.nombre{
+	font-size: 0.7em;
+	font-family: ;      /*AVERIGUAR*/
+	text-align: left;
+}
+p.breve{
+	font-size: 0.8em;
+	font-color:grey;
+	text-align: left;
+	font-weight: bold;
+}
+
+.pic{
+	border: 2px solid white;
+	vertical-align: center;
+	width: 100%;
+}
+
+.pd-0{
+	padding:0px;
+}
+
+.m-0{
+	margin:0px;
+}
+
