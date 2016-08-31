@@ -1,9 +1,25 @@
 /*contacto*/
-form {
-
+/*form espaciado*/
+.p-x-12{
+	padding: 0 12%;
+}
+/*estilo a las cajas del formulario*/
+.bg-grey{
+	background-color: #E6E6E6;
+	box-shadow: inset 2px 2px 5px #A4A4A4;
+}
+.p-t-5 {
+	padding-top: 5%;
 }
 
 /*titulo contactese con nosotros*/
 .tituloCont {
-	font-size: 2.5em;
+	font-size: 3em;
+}
+
+.btn {
+	margin-top: 5%;
+	background-color: black;
+	color: white;
+	width: 50%;
 }
