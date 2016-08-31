@@ -1,0 +1,40 @@
+/*Adapta columnas a tamaños iguales*/
+div.col-md-5, div.col-md-6{
+	width: 33.33333333%
+}
+/*bordes de blog*/
+.square{
+	border:1px gray solid;
+	height: 100%;
+	position: relative;
+}
+/*Fondo gris de foto*/
+.gray{
+	background-color: #D8D8D8;
+}
+/*letra gris*/
+.gris{
+	color:#6E6E6E;
+}
+/*espacio ente row de fotos*/
+.marow{
+	margin-top: 2%;
+}
+/*alto de cada blog*/
+.alto{
+	height: 150px;
+}
+/*ajusta imagenes*/
+.imagen{
+	width: 100%;
+}
+
+.abajo{
+position:absolute; /*El div será ubicado con relación a la pantalla*/
+left:0px; /*A la derecha deje un espacio de 0px*/
+right:0px; /*A la izquierda deje un espacio de 0px*/
+bottom:0px; /*Abajo deje un espacio de 0px*/
+height:65px; /*alto del div*/
+/*z-index:0;*/
+
+}
