@@ -1,0 +1,35 @@
+/*color morado*/
+.txt-morado{
+	color: #872F85;
+}
+.linea-morada{
+	border-bottom: 4px solid #872F85;
+	width: 70%;
+	margin-left: 20%;
+}
+/*color rojo*/
+.txt-rojo{
+	color: #B20000;
+}
+.bg-rojo{
+	background-color: #B20000;
+}
+/*color gris*/
+.txt.gris{
+	color: #768696;
+}
+.bg-gris{
+	background: #768696;
+}
+/*color blanco*/
+.txt-blanco{
+	color: #fff;
+}
+ul li{
+	color: #fff;
+}
+	div ul li {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: pink;
+    font-size: 20%;
+}
