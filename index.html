@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-	  	<meta charset="utf-8">							
-	  	<link rel="stylesheet" href="css/font-awesome.css"><!--  AGREGAR LINKS-->
+	  <meta charset="utf-8">
+	  <title>La República.pe</title>							
+	  <link rel="stylesheet" href="css/font-awesome.css"><!--  AGREGAR LINKS-->
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -11,73 +12,202 @@
 		<script src="js/bootstrap.min.js"> </script>
 		<script src="js/tagcanvas.min.js" type="text/javascript"></script>
 		<meta name="viewport" content="widith=device-widith, initial-scale=1.0">  <!-- para que funcione el codigo a escala -->
-		<link rel="stylesheet" href="css/style.css">
-	  	<title>La República.pe</title>
+		<link rel="stylesheet" href="css/style.css">	
 	</head>
 	<body>
-	<section><!--infografías-->
-	<div class="row">
-		<div class="col-lg-6">
-			<hr>
-			<p>INFOGRAFÍAS</p>
+		<section><!--infografías-->
 			<div class="row">
-				<div class="col-lg-16">
-					<img class="tamañogral" src="image/img_especiales_aside.jpg"><!--checar el link de las imagenes y -->
-					<p class="fondobl posicionar01">Histórico de cierre de frontera</p><!--agregar fondo blanco, debajo del texto, la clase posicionar para el position absolute mas los valores-->
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-8">
-					<img class="tamañoimg" src="image/thumb-post-image.jpg"><!--checar el link de las imagenes y -->
-				</div>
-				<div class="col-lg-8">
-					<div class="row">
-						<div class="col-lg-16 ">
-							<img class="tamañogral" src="image/thumb-post-image.jpg"><!--checar el link de las imagenes y -->
-						</div>
+				<div class="col-lg-4">
+					<div>
+							<hr class="lin">
+							<p class="gris positioni">INFOGRAFÍAS</p>	
 					</div>
+
 					<div class="row">
 						<div class="col-lg-16">
-							<img class="tamañogral" src="image/thumb-post-image.jpg"><!--checar el link de las imagenes y -->
+							<img class="tamañogral img-responsive" src="image/img_especiales_aside.jpg"><!--checar el link de las imagenes y -->
+							<p class="fondobl posicionar02 text-center"><b>Histórico de cierre de frontera</b></p><!--agregar fondo blanco, debajo del texto, la clase posicionar para el position absolute mas los valores-->
 						</div>
 					</div>
-				</div>
-			</div>
-			<p class="fondobl posicionar01 pt-5">Evolución de la pobreza e indigencia en Améroca Latina</p><!--agregar fondo blanco, debajo del texto, la clase posicionar para el position absolute mas los valores-->
-			<hr>	
-			<div class="row">
-				<div class="col-lg-16" id="fondopuntos">
-					<img class="center-block position" src="image/img_pregunta.png">
-					<div ><!--definir bg -->
-						<div class="fondoblanco margg">
-							<p class="text-center">La pregunta de hoy</p>
-							<p>¿Cree usted que la premier Ana Jara debe renunciar?</p>
-							<div class="checkbox marggsino">
-  							<label><input type="checkbox" value="">Si</label>
-							</div>
-							<div class="checkbox marggsino">
-  							<label><input type="checkbox" value="">No</label>
-							</div>
-							<button type="button" class="btn btn-danger center-block padd">VOTAR</button>
-							<a class="margver" href="#">Ver resultados</a>	
+					<div class="row">
+						<div class="col-lg-8">
+							<img class="tamañoimg img-responsive" src="image/PAPA.jpg"><!--checar el link de las imagenes y -->
 						</div>
-						<div class="fondoblanco margg">
-							<p class="text-center">La pregunta de ayer</p>
-							<p>¿Cree usted que se militarizo la conmemoración del fallo de la Haya en Lima?</p>
-							<div class="progress">
-  							<div class="progress-bar  colorverde margg text-center" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%
-  							</div>  							
+						<div class="col-lg-8">
+							<div class="row">
+								<div class="col-lg-16 ">
+									<img class="tamañogral img-responsive" src="image/thumb-post-image.jpg"><!--checar el link de las imagenes y -->
+								</div>
 							</div>
-							<div class="progress">
-  							<div class="progress-bar colorojo margg text-center" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%
-  							</div>
+							<div class="row">
+								<div class="col-lg-16">
+									<img class="tamañogral img-responsive" src="image/thumb-post-image.jpg"><!--checar el link de las imagenes y -->
+								</div>
 							</div>
-							<a class="margg" href="#">Ver preguntas pasadas</a>
 						</div>
+						<p class="fondobl posicionar01 text-center"><b>Evolución de la pobreza e indigencia en <br> América Latina</b></p><!--agregar fondo blanco, debajo del texto, la clase posicionar para el position absolute mas los valores-->
+					</div>
+					<hr>	
+					<div class="row">
+						<div class="col-lg-16" id="fondopuntos">
+							<img class="center-block position img-responsive" src="image/img_pregunta.png">
+								<div class="fondoblanco padding1 margg">
+									<p class="text-center">La pregunta de hoy</p>
+									<p>¿Cree usted que la premier Ana Jara <br> debe renunciar?</p>
+									<div class="checkbox marggsino">
+		  							<label><input type="checkbox" value="">Si</label>
+									</div>
+									<div class="checkbox marggsino">
+		  							<label><input type="checkbox" value="">No</label>
+									</div>
+									<button type="button" class="btn btn-danger center-block padd">VOTAR</button>
+									<a class="margver colorj" href="#">Ver resultados</a>	
+								</div>
+								<div class="fondoblanco padding1 margg">
+									<p class="text-center">La pregunta de ayer</p>
+									<p>¿Cree usted que se militarizo la conmemoración del fallo de la Haya en Lima?</p>
+									<div class="progress">
+		  							<div class="progress-bar  colorverde margg text-center" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%
+		  							</div>  							
+									</div>
+									<div class="progress">
+		  							<div class="progress-bar colorojo margg text-center" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%
+		  							</div>
+									</div>
+									<a class="margver2 colorj" href="#">Ver preguntas pasadas</a>
+								</div>	
+						</div>
+					</div>
+					<div class="row borde pt-5 marggb"><!--apertura de libero.pe -->
+						<div class="col-lg-16 padd">
+							<img class="margg" src="image/logo_libero.jpg">
+						</div>
+						<div class="row">
+							<div class="col-lg-7">
+								<img class="tamañogral" src="image/img_fotodes.jpg">
+							</div>
+							<div class="col-lg-9">
+								<p>Fiorentina empató 1-1 <br> en su visita al Genoa <br>con gran actuación de <br> Juan Vargas <a href="">[VIDEO]</a> </p>	
+							</div>		
+						</div>
+						<div class="row">
+							<div class="col-lg-7">
+								<img class="tamañogral" src="image/img_fotodes.jpg">
+							</div>
+							<div class="col-lg-9">
+								<p>Fiorentina empató 1-1 <br> en su visita al Genoa <br>con gran actuación de <br> Juan Vargas <a href="">[VIDEO]</a> </p>	
+							</div>		
+						</div>
+						<div class="row">
+							<div class="col-lg-7">
+								<img class="tamañogral" src="image/img_fotodes.jpg">
+							</div>
+							<div class="col-lg-9">
+								<p>Fiorentina empató 1-1 <br> en su visita al Genoa <br>con gran actuación de <br> Juan Vargas <a href="">[VIDEO]</a> </p>	
+							</div>		
+						</div>
+						<div class="row">
+							<div class="col-lg-7">
+								<img class="tamañogral" src="image/img_fotodes.jpg">
+							</div>
+							<div class="col-lg-9">
+								<p>Fiorentina empató 1-1 <br> en su visita al Genoa <br>con gran actuación de <br> Juan Vargas <a href="">[VIDEO]</a> </p>	
+							</div>		
+						</div>
+						<p class="text-center">Más en <a href="">Libero.pe</a></p>
+					</div><!--cierre de libero.pe -->
+					<div class="row borde pt-5 marggb"><!--apertura de el popular -->
+						<div class="col-lg-16 padd">
+							<img class="margg" src="image/logo_popular.jpg">
+						</div>
+						<div class="row">
+							<div class="col-lg-7">
+								<img class="tamañogral" src="image/img_fotodes.jpg">
+							</div>
+							<div class="col-lg-9">
+								<p>Fiorentina empató 1-1 <br> en su visita al Genoa <br>con gran actuación de <br> Juan Vargas <a href="">[VIDEO]</a> </p>	
+							</div>		
+						</div>
+						<div class="row">
+							<div class="col-lg-7">
+								<img class="tamañogral" src="image/img_fotodes.jpg">
+							</div>
+							<div class="col-lg-9">
+								<p>Fiorentina empató 1-1 <br> en su visita al Genoa <br>con gran actuación de <br> Juan Vargas <a href="">[VIDEO]</a> </p>	
+							</div>		
+						</div>
+						<div class="row">
+							<div class="col-lg-7">
+								<img class="tamañogral" src="image/img_fotodes.jpg">
+							</div>
+							<div class="col-lg-9">
+								<p>Fiorentina empató 1-1 <br> en su visita al Genoa <br>con gran actuación de <br> Juan Vargas <a href="">[VIDEO]</a> </p>	
+							</div>		
+						</div>
+						<div class="row">
+							<div class="col-lg-7">
+								<img class="tamañogral" src="image/img_fotodes.jpg">
+							</div>
+							<div class="col-lg-9">
+								<p>Fiorentina empató 1-1 <br> en su visita al Genoa <br>con gran actuación de <br> Juan Vargas <a href="">[VIDEO]</a> </p>	
+							</div>		
+						</div>
+						<p class="text-center">Más en <a href="">elPopular.pe</a></p>
+					</div><!--cierre de el popular -->
+					<div class="row borde pt-5 marggb"><!--apertura de WAPA -->
+						<div class="col-lg-16 padd">
+							<img class="margg" src="image/logo_wapa.jpg">
+						</div>
+						<div class="row">
+							<div class="col-lg-7">
+								<img class="tamañogral" src="image/img_fotodes.jpg">
+							</div>
+							<div class="col-lg-9">
+								<p>Fiorentina empató 1-1 <br> en su visita al Genoa <br>con gran actuación de <br> Juan Vargas <a href="">[VIDEO]</a> </p>	
+							</div>		
+						</div>
+						<div class="row">
+							<div class="col-lg-7">
+								<img class="tamañogral" src="image/img_fotodes.jpg">
+							</div>
+							<div class="col-lg-9">
+								<p>Fiorentina empató 1-1 <br> en su visita al Genoa <br>con gran actuación de <br> Juan Vargas <a href="">[VIDEO]</a> </p>	
+							</div>		
+						</div>
+						<div class="row">
+							<div class="col-lg-7">
+								<img class="tamañogral" src="image/img_fotodes.jpg">
+							</div>
+							<div class="col-lg-9">
+								<p>Fiorentina empató 1-1 <br> en su visita al Genoa <br>con gran actuación de <br> Juan Vargas <a href="">[VIDEO]</a> </p>	
+							</div>		
+						</div>
+						<div class="row">
+							<div class="col-lg-7">
+								<img class="tamañogral" src="image/img_fotodes.jpg">
+							</div>
+							<div class="col-lg-9">
+								<p>Fiorentina empató 1-1 <br> en su visita al Genoa <br>con gran actuación de <br> Juan Vargas <a href="">[VIDEO]</a> </p>	
+							</div>		
+						</div>
+						<p class="text-center">Más en <a href="">Wapa.pe</a></p>
+					</div><!--cierre de wapa -->
+					<div class="row">
+						<div class="col-lg-16" id="fondopuntos">
+							<img class="center-block position img-responsive pdb" src="image/img_reporteroc.png">
+							<div class="fondoblancoch padding1 margg pdb">
+								<p class="text-center ">Reporte ciudadano</p>
+								<img class="margg" src="image/img_sd_reporteroc.jpg">
+								<p>Estacionamiento indebido</p>
+								<p>¿Está permitido que dejen su auto en <br> reiteradas ocasiones toda la noche en<br> la puerta de tu casa? Placa DG6232, <br>eso que antes lo dejaba entre la vereda y mi puerta</p>
+							</div>
+							<button type="button" class="btn btn-danger center-block padd">ENVIAR FOTOS</button>
+							<a class="margver colorj" href="#">Más fotos</a>
+						</div>
+					</div>
 			</div>
-	
-</section>
-</aside> <!--cierre de aside -->
+		</section>
+	</aside> <!--cierre de aside -->
 		
 	</body>
 </html>
