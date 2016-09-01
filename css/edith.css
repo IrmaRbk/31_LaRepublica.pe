@@ -1,0 +1,94 @@
+/*color morado*/
+.txt-morado{
+	color: #872F85;
+}
+.linea-morada{
+	border-bottom: 4px solid #872F85;
+	width: 70%;
+	margin-left: 15%;
+}
+/*color rojo*/
+.txt-rojo{
+	color: #B20000;
+}
+.linea-roja{
+	text-decoration: underline;
+}
+/*color gris*/
+.txt-gris{
+	color: #768696;
+}
+/*color blanco*/
+.txt-blanco{
+	color: #fff;
+}
+/*suscribirse*/
+#bg-puntos{
+	background-image: url("../image/trama_square.jpg");
+	background-repeat: repeat;
+}
+.img-sobre{
+	position: relative;
+	right: 5%;
+}
+.fondo-blanco{
+	background-color: #fff;
+	margin: 3%; 
+}
+/*padding suscribirse*/
+.pdbt{ 
+	padding: 10% 2% 4%;
+}
+/*margen y padding general*/
+
+.pd-5{
+	padding: 5%; 
+}
+.mgt-2{
+	margin-top: 2%;
+}
+.mg-2{
+	margin: 2% 0;
+}
+.mgt-10{
+	margin-top: 10%;
+}
+/*borde de aweita*/
+.borde-div{
+	border: 1px solid #D7DCE1;
+}
+/*borde imagenes*/
+.img-borde{
+	border: 2px solid #8B99A7;
+}
+.link-fotos, .txt-negro{
+	color: #000;
+}
+.txt-fondo{
+	background-color: rgba(255,255,255,0.8);
+	position: absolute;
+	padding: 2% 4%;
+	bottom: 15%;
+	right: 1%;
+	left: 1%;
+	font-size: .8em;
+	font-weight: bold;
+}
+/*linea separacion*/
+hr.linea{
+	border: 1px solid #CDCDCD;
+}
+/*texto blogueros*/
+.txt-negro{
+	font-size: smaller;
+	text-decoration: underline;
+}
+/*h4*/
+h4{
+	color: #1F1F1F;
+}
+.img-autor{
+	position: absolute;
+	top: 2%;
+	right: 15%;
+}
