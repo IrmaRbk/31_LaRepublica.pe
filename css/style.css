@@ -3,20 +3,48 @@
 	background: rgba(244,245,247);
 	border-bottom: 1px solid #D7DCE1;
 }
-/*menu principal color rojo*/
-.menu-rojo{
-	padding: 2%;
-	list-style: none;
+/*color rojo menu*/
+.bg-rojo{
+	background-color: #B20000;
 }
-.menu-rojo li{
-	display: inline;
-	margin: 2% 1%; 
+.bg-rojo, .menu-gris{
+	border-radius: 10px;
+	border: none;
 }
-.menu-rojo li a{
-	font-size: .6em;
-}
-
 /*input search*/
 .posicion{
 	position: absolute;
+	right: 8%;
+	top: 25%;
+}
+.fa-facebook{
+	color: #2A65A1;
+}
+.fa-twitter{
+	color: #4BB7D9;
+}
+.fa-google-plus{
+	color: #CA4638;
+}
+.fa-envelope{
+	color: #FFBF00;
+}
+.fa-rss{
+	color: #FF8000;
+}
+.negro{
+	background-color: #000;
+	color: #fff;
+}
+.menu-gris ul{
+	padding: 0 2%;
+}
+.menu-gris li{
+	display: inline-block;
+	list-style: circle;
+	margin-left: 1%; 
+	padding: 2% 0;
+}
+.menu-gris li a{
+	color: #fff;
 }

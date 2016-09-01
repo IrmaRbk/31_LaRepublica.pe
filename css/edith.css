@@ -11,9 +11,6 @@
 .txt-rojo{
 	color: #B20000;
 }
-.bg-rojo{
-	background-color: #B20000;
-}
 .linea-roja{
 	text-decoration: underline;
 }
@@ -25,7 +22,7 @@
 	background: #768696;
 }
 /*color blanco*/
-.txt-blanco, li a{
+.txt-blanco{
 	color: #fff;
 }
 /*suscribirse*/
@@ -46,11 +43,15 @@
 	padding: 10% 2% 4%;
 }
 /*margen y padding general*/
+
 .pd-5{
 	padding: 5%; 
 }
 .mgt-2{
 	margin-top: 2%;
+}
+.mg-2{
+	margin: 2% 0;
 }
 .mgt-10{
 	margin-top: 10%;
@@ -88,4 +89,9 @@ hr.linea{
 /*h4*/
 h4{
 	color: #1F1F1F;
+}
+.img-autor{
+	position: absolute;
+	top: 2%;
+	right: 15%;
 }

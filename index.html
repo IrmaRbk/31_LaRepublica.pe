@@ -4,72 +4,74 @@
 		<meta charset="utf-8">							
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>La República.pe</title>
-		<link rel="stylesheet" href="css/font-awesome.css">
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/bootstrap.css">
+		<script type="js/modernizr.custom.68172.js"></script>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/font-awesome.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/slick.css">
+		<link rel="stylesheet" href="css/slick-theme.css">
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/edith.css">
-		<script src="js/bootstrap.min.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/edith.css">	
 	</head>
 	<body>
 		<header>
 			<div class="container-fluid bg-gris-claro">
 				<div class="row"><!--inicio banner-->
-					<div class="col-xs-16 col-sm-16 col-md-16 col-lg-16">
+					<div class="hidden-xs hidden-sm col-md-16 col-lg-16">
 						<img class="img-responsive center-block" src="image/banner_top.jpg" alt="banner-encabezado">
 					</div>
 				</div>
 				<div class="container">
-					<div class="row">
-						<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-							<ul class="list-inline">
-								<li>LIBERO.PE</li>
-								<li>ELPOPULAR.PE</li>
-								<li>FUNDACIÓN GUSTAVO MOHME LLONA</li>
-							</ul>
+					<div class="row mg-2">
+						<div class="hidden-xs hidden-sm col-md-8 col-lg-8">
+							<a href="http://www.libero.pe/" target="_blank">LIBERO.PE</a>
+							<a href="http://www.elpopular.pe/" target="_blank">ELPOPULAR.PE</a>
+							<a href="http://fundacionmohme.org/" target="_blank">FUNDACIÓN GUSTAVO MOHME LLONA</a> 
 						</div>
-						<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-							<button type="submit" class="btn btn-danger btn-sm">SUSCRÍBETE AL BOLETÍN</button><!--boton suscribirte-->
-							<span class="fa fa-facebook fa-2x" aria-hidden="true"></span>
-							<span class="fa fa-twitter fa-2x" aria-hidden="true"></span>
-							<span class="fa fa-google-plus fa-2x" aria-hidden="true"></span>
-							<span class="fa fa-envelope fa-2x" aria-hidden="true"></span>
-							<span class="fa fa-rss fa-2x" aria-hidden="true"></span>
-							<form>
-								<div class="form-group">
-									<span class="fa fa-search posicion" aria-hidden="true"></i>
-									<input type="search" class="input-sm" placeholder="Buscar" name="buscando">
-								</div>
-							</form>
+						<div class="hidden-xs hidden-sm col-md-8 col-lg-8">
+							<button type="submit" class="btn btn-danger">SUSCRÍBETE AL BOLETÍN</button><!--boton suscribirte-->
+							<span class="fa fa-facebook" aria-hidden="true"></span>
+							<span class="fa fa-twitter" aria-hidden="true"></span>
+							<span class="fa fa-google-plus" aria-hidden="true"></span>
+							<span class="fa fa-envelope" aria-hidden="true"></span>
+							<span class="fa fa-rss" aria-hidden="true"></span>
+							<input type="search" class="input-sm" placeholder="Buscar">
+							<span class="fa fa-search posicion" aria-hidden="true"></span>
 						</div>
 					</div>
 				</div>
 			</div><!--fin banner-->
 			<div class="container"><!--inicio encabezado con logo-->
-				<div class="row">
-					<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+				<div class="row mgt-2">
+					<div class="hidden-xs hidden-sm col-md-6 col-lg-6">
 						<img class="img-responsive" src="image/logo-la-republica.jpg" alt="logo">
 					</div>
-					<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+					<div class="hidden-xs hidden-sm col-md-5 col-lg-5">
 						<p class="bg-gris txt-blanco">ESPECIAL DE FÚTBOL</p>
 						<p>TODO SOBRE LA CHAMPIONS LEAGUE</p>
 					</div>
-					<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+					<div class="hidden-xs hidden-sm col-md-5 col-lg-5">
 						<img class="img-responsive pull-left" src="image/img_editorial_text.jpg" alt="editorial">
-						<p class="frase">La corrupción, los orígenes<br> por: <em>Gustavo Mohem Llona</em></p>
-						<img class="img-responsive pull-right" src="image/img_author.jpg" alt="autor">
+						<p>La corrupción, los orígenes<br> por: <em>Gustavo Mohem Llona</em></p>
+						<img class="img-responsive img-autor" src="image/img_author.jpg" alt="autor">
 					</div>
 				</div>
 			</div><!--fin encabezado con logo-->
 			<div class="container"><!--inicio menu principal-->
-				<div class="row">
-					<div class="col-xs-16 col-sm-16 col-md-16 col-lg-16">
-						<nav class=" bg-rojo" role="navigation">
-							<ul class="menu-rojo">
+				<div class="row mgt-2">
+					<nav class="navbar bg-rojo" role="navigation">
+							<div class="navbar-header"><!--inicio menu responsive-->
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-principal">
+									<span class="sr-only">nav-responsive</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div><!--fin menu responsive-->
+						<div class="collapse navbar-collapse" id="menu-principal">
+							<ul class="nav navbar-nav">
 								<li><a href="#">POLÍTICA</a></li>
 								<li><a href="#">ECONOMÍA</a></li>
 								<li><a href="#">SOCIEDAD</a></li>
@@ -79,17 +81,42 @@
 								<li><a href="#">ESPECTÁCULOS</a></li>
 								<li><a href="#">ED. IMPRESA</a></li>
 								<li><a href="#">REGIONALES</a></li>
-								<li><a href="#">MÁS SECCIONES</a></li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">MÁS SECCIONES<span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li><a href="#">ENLACE1</a></li>
+										<li><a href="#">ENLACE2</a></li>
+										<li><a href="#">ENLACE3</a></li>
+									</ul>
+								</li>
 							</ul>
 						</div>
 					</nav>
 				</div>
-				<div class="row">
-					<div class="col-xs-16 col-sm-16 col-md-16 col-lg-16">
-						<img src="image/banner-header.jpg" alt="banner_header">
+			</div><!--fin menu principal-->
+			<div class="container"><!--inicio banner encabezado-->
+				<div class="row mgt-2">
+					<div class="hidden-xs hidden-sm col-md-16 col-lg-16">
+						<ul class="menu-gris bg-gris">
+							<li class="negro"><a href="#">TEMAS DEL DÍA</a></li>
+							<li><a href="#">Globos de oro</a></li>
+							<li><a href="#">Youtube</a></li>
+							<li><a href="#">PNP</a></li>
+							<li><a href="#">Charlie Hebdo</a></li>
+							<li><a href="#">FC Barcelona</a></li>
+							<li><a href="#">Alianza Lima</a></li>
+							<li><a href="#">Balón de Oro</a></li>
+							<li><a href="#">Alianza Lima</a></li>
+							<li><a href="#">Municipios</a></li>
+						</ul>
 					</div>
 				</div>
-			</div><!--fin menu principal-->
+				<div class="row"><!--inicio banner encabezado-->
+					<div class="hidden-xs hidden-sm col-md-16 col-lg-16">
+						<img class="img-responsive" src="image/banner-header.jpg" alt="banner-encabezado">
+					</div>
+				</div>
+			</div><!--fin banner encabezado-->
 		</header>
 		<section>
 			<div class="container">
@@ -406,5 +433,13 @@
 				</div>
 			</div>
 		</section>
+		<script type="js/slick.min.js"></script>
+			<script type="js/respond.js"></script>
+			<script type="js/html5-respond.js"></script>
+			<script type="js/bootstrap-hover-dropdown.min.js"></script>
+			<script src="js/jquery-1.11.3.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  			<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</body>
 </html>
