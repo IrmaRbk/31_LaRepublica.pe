@@ -22,14 +22,8 @@
 	background: #768696;
 }
 /*color blanco*/
-.txt-blanco{
+.txt-blanco, li a{
 	color: #fff;
 }
-ul li{
-	color: #fff;
-}
-	div ul li {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: pink;
-    font-size: 20%;
-}
+
+

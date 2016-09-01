@@ -1,0 +1,23 @@
+/*banner-encabezado*/
+.bg-gris-claro{
+	background: rgba(244,245,247);
+	border-bottom: 1px solid #D7DCE1;
+}
+/*menu principal color rojo*/
+.menu-rojo{
+	padding: 2%;
+	list-style: none;
+}
+.menu-rojo li{
+	display: inline;
+	margin: 2% 1%; 
+}
+.menu-rojo li a{
+	font-size: .6em;
+}
+
+/*input search*/
+.posicion{
+	position: absolute;
+	
+}
