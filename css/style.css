@@ -7,7 +7,7 @@
 }
 #fondopuntos{
 	background-image: url("../image/trama_square.jpg");
-	height: 690px;
+	height: 700px;
 	width: 100%;
 }
 .fondbla{
@@ -29,10 +29,10 @@
 	margin: 5% 0% 5% 0%;
 }
 .margver{
-	margin: 10% 28% auto;
+	margin: 12% 38% auto;
 }
 .margver2{
-	margin: 10% 18% auto;
+	margin: 10% 16% auto;
 }
 .marggsino{
 	margin: 1% 35% auto;
@@ -65,7 +65,7 @@ a{
 .posicionar01{
 	position: absolute;
 	left: 10%;
-	top:12%;
+	top:31%;
 }
 .posicionar02{
 	position: absolute;
@@ -85,14 +85,72 @@ a{
 	width: 100%;
 	border: 2px solid gray;
 }
+.linr{
+	width: 100%;
+	border: 2px solid red;
+}
 .gris{
 	background-color: gray;
-	padding: 2% 3%;
+	padding: 2% 2%;
 	color: #fff;
+}
+.rojo{
+	background-color:red;
+	padding: 2% 2%;
+	color: #fff;
+	right: 0% -2%;
 }
 .positioni{
 	position: absolute;
 	left: 30%;
-	top: 0;
+	top: 22.5%;
 }
+/*banner-encabezado*/
+ .bg-gris-claro{
+ 	background: rgba(244,245,247);
+ 	border-bottom: 1px solid #D7DCE1;
+ }
+ /*menu principal color rojo*/
+ .menu-rojo{
+ 	padding: 2%;
+ 	list-style: none;
+ }
+ .menu-rojo li{
+ 	display: inline;
+ 	margin: 2% 1%; 
+ }
+ .menu-rojo li a{
+ 	font-size: .6em;
+ }
+ 
+ /*input search*/
+ .posicion{
+ 	position: absolute;
+ 	
+ } 
 
+ /*color morado*/
+.txt-morado{
+	color: #872F85;
+}
+.linea-morada{
+	border-bottom: 4px solid #872F85;
+	width: 70%;
+	margin-left: 20%;
+}
+/*color rojo*/
+
+.bg-rojo{
+	background-color: #B20000;
+}
+/*color gris*/
+.txt.gris{
+	color: #768696;
+}
+.bg-gris{
+	background: #768696;
+}
+/*color blanco*/
+.txt-blanco, li a{
+ 	color: #fff;
+}
