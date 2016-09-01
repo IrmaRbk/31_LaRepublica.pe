@@ -49,9 +49,7 @@
 .colorj{
 	color: red;
 }
-a{
-	color: red;
-}
+
 .colorverde{
 	background-color: green;
 	opacity: 0.5;
@@ -153,4 +151,293 @@ a{
 /*color blanco*/
 .txt-blanco, li a{
  	color: #fff;
+}
+/*banner-encabezado*/
+.bg-gris-claro{
+	background: rgba(244,245,247);
+	border-bottom: 1px solid #D7DCE1;
+}
+/*color rojo menu*/
+.bg-rojo{
+	background-color: #B20000;
+}
+.bg-rojo, .menu-gris{
+	border-radius: 10px;
+	border: none;
+}
+/*input search*/
+.posicion{
+	position: absolute;
+	right: 8%;
+	top: 25%;
+}
+.fa-facebook{
+	color: #2A65A1;
+}
+.fa-twitter{
+	color: #4BB7D9;
+}
+.fa-google-plus{
+	color: #CA4638;
+}
+.fa-envelope{
+	color: #FFBF00;
+}
+.fa-rss{
+	color: #FF8000;
+}
+.negro{
+	background-color: #000;
+	color: #fff;
+}
+.menu-gris ul{
+	padding: 0 2%;
+}
+.menu-gris li{
+	display: inline-block;
+	list-style: circle;
+	margin-left: 1%; 
+	padding: 2% 0;
+}
+.menu-gris li a{
+	color: #fff;
+}
+/*negrita dde letra*/
+.fuerte{
+	font-weight: bold;
+}
+/*sombra pra iconos de redes sociales*/
+.sombra{
+	background-color: #E6E6E6;
+	padding: 8px;
+	border-radius: 5px;
+	border-bottom: 3px solid;
+	width: 35px;
+}
+/*azil de fae*/
+.azul{
+	color:  #3b5998;
+}
+/*azul de twitter*/
+.azulito{
+	color:#00aced;
+}
+/*rojo google +*/
+.rojo{
+	color: red;
+}
+/*foto de fondo*/
+.señor{
+	background-image: url(../image/img_grid_principal.jpg);
+	height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.foto2{
+	background-image: url(../image/img_grid_secundario.jpg);
+	height: 240px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.foto3{
+	background-image: url(../image/seleccion-peruana-sub-20.jpg);
+	height: 240px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+/*margen entre fotos*/
+.mgt{
+	margin-top: 20px;
+}
+/*letra blanca*/
+.blanca{
+	color: white;
+}
+/*posisciona al fondo el texto*/
+.va{
+	position: absolute;
+	bottom: 0%;
+	left: 3%;
+	right: 2%;
+}
+.f25{
+	font-size: 25px;
+}
+.f18{
+	font-size: 18px;
+}
+/*degradado con opacidad*/
+.deg{ 
+	height: 100%;
+	background: -webkit-linear-gradient(rgba(255,255,255,0), rgba(0,0,0,1));
+	background: -o-linear-gradient(rgba(255,255,255,0), rgba(0,0,0,1));
+	background: linear-gradient(rgba(255,255,255,0), rgba(0,0,0,1));
+}
+.gray{
+	background-color: lightgray;
+}
+.mgts{
+	margin-top: 6%;
+}
+.linearoja{
+	border-top: 5px solid red;
+}
+.titulo{
+	background-color: red;
+	padding: 1%;
+	width: 200px;
+	margin: auto;
+	margin-bottom: 40px;
+}
+.col{
+	width: 100px;
+	height: 100px;
+	border: 3px solid white;
+	margin-left: 20%;
+}
+/*-------------sections IMG-------------------------*/
+
+.backUno{
+	background-image: url(../image/img_especiales.jpg);
+	height:10em;
+	width: 100% ;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.backDos{
+	background-image: url(../image/img_especiales_aside.jpg);
+	height:10em;
+	width: 100% ;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.backTres{
+	background-image: url(../image/img_grid_especiales.jpg);
+	height:10em;
+	width: 100% ;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.backCuatro{
+	background-image: url(../image/un-image--thumb-01.jpg);
+	height:10em;
+	width: 100% ;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.fotoasize{
+	height:10em;
+	width: 120% ;
+	margin-left: -8%;
+}
+
+/*iconos de redes sociales*/
+.sombra{
+	background-color: #E6E6E6;
+	padding: 8px;
+	border-radius: 5px;
+	border-bottom: 3px solid;
+	width: 35px;
+}
+/*fondo*/
+.azul{
+	color:  #3b5998;
+}
+.azulito{
+	color:#00aced;
+}
+
+.rojo{
+	color: red;
+}
+.red{
+	color: #B20000;
+}
+.blancaR{
+	color: white;
+}
+.inLB{
+	display: inline;
+}
+
+.marg{
+	margin: 1%;
+}
+.pad{
+	padding:0% 5% ;
+
+}
+.padTop{
+	padding-top: 27%;
+}
+.padTop2{
+	margin-top: 15%;
+}
+.padBttmB{
+	padding-bottom: -15%;
+}
+.padNeg{
+	padding-left: -2%;	
+}
+.mglft{
+	margin-left: 25%;
+}
+.mglft2{
+	margin-left: -5%;
+}
+.mgnegative{
+	margin-left: -8%;
+}
+.mgrht{
+	margin-right: 5%;
+}
+.mgtop{
+	margin-top: 5%;
+}
+.mgtop2{
+	margin-top: -100%;
+}
+.mgbttn{
+	margin-bottom: 5%;
+}
+.decotext{
+	text-decoration: none;
+}
+.tx-ch{
+	font-size: 70%;
+}
+.tx-ch2{
+	font-size: 80%;
+}
+
+.tx-md{
+	font-size: 100%;
+}
+.c-gray{
+	color: gray;
+}
+.c-blue{
+	color: blue;
+}
+.sombraicon{
+	background-color: lightgray;
+	padding: 1%;
+	border-radius: 5%;
+	border-bottom: 5%;
+}
+.cielcomment{
+	color: lightblue;
+}
+
+
+/*------FOOTER----*/
+
+footer{
+	background-color: lightgray;
+}
+.list{
+	list-style: none;
 }
