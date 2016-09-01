@@ -1,0 +1,96 @@
+/*negrita dde letra*/
+.fuerte{
+	font-weight: bold;
+}
+/*sombra pra iconos de redes sociales*/
+.sombra{
+	background-color: #E6E6E6;
+	padding: 8px;
+	border-radius: 5px;
+	border-bottom: 3px solid;
+	width: 35px;
+}
+/*azil de fae*/
+.azul{
+	color:  #3b5998;
+}
+/*azul de twitter*/
+.azulito{
+	color:#00aced;
+}
+/*rojo google +*/
+.rojo{
+	color: red;
+}
+/*foto de fondo*/
+.señor{
+	background-image: url(../image/img_grid_principal.jpg);
+	height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.foto2{
+	background-image: url(../image/img_grid_secundario.jpg);
+	height: 240px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.foto3{
+	background-image: url(../image/seleccion-peruana-sub-20.jpg);
+	height: 240px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+/*margen entre fotos*/
+.mgt{
+	margin-top: 20px;
+}
+/*letra blanca*/
+.blanca{
+	color: white;
+}
+/*posisciona al fondo el texto*/
+.va{
+	position: absolute;
+	bottom: 0%;
+	left: 3%;
+	right: 2%;
+}
+.f25{
+	font-size: 25px;
+}
+.f18{
+	font-size: 18px;
+}
+/*degradado con opacidad*/
+.deg{ 
+	height: 100%;
+	background: -webkit-linear-gradient(rgba(255,255,255,0), rgba(0,0,0,1));
+	background: -o-linear-gradient(rgba(255,255,255,0), rgba(0,0,0,1));
+	background: linear-gradient(rgba(255,255,255,0), rgba(0,0,0,1));
+}
+.gray{
+	background-color: lightgray;
+}
+.mgts{
+	margin-top: 6%;
+}
+.linearoja{
+	border-top: 5px solid red;
+}
+.titulo{
+	background-color: red;
+	padding: 1%;
+	width: 200px;
+	margin: auto;
+	margin-bottom: 40px;
+}
+.col{
+	width: 100px;
+	height: 100px;
+	border: 3px solid white;
+	margin-left: 20%;
+}

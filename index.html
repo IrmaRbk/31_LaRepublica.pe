@@ -1,64 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-	  	<meta charset="utf-8">							
+	  	<meta charset="utf-8">
+	  	<meta name="viewport" content="widith=device-widith, initial-scale=1.0">
 	  	<link rel="stylesheet" href="css/font-awesome.css"><!--  AGREGAR LINKS-->
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-		<script src="js/bootstrap.min.js"> </script>
-		<meta name="viewport" content="widith=device-widith, initial-scale=1.0">  <!-- para que funcione el codigo a escala -->
+		<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  		<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+		  <!-- para que funcione el codigo a escala -->
 		<link rel="stylesheet" href="css/style.css">
 	  	<title>La República.pe</title>
 	</head>
 	<body>
-		<!--Seccion de las fotos al incicio de home-->
-		<section>
-			<div class="container"><!--Container-->
-				<div class="row"><!--Renglon de titulo-->
-					<div class="col-md-12 text-center"><!--columnas titulo-->
-						<h1>GUERRA EN LA MUNICIPALIDAD DE LIMA METROPOLITANA</h1>
-						<span class="fa fa-facebook"></span>	
-						<span class="fa fa-twitter"></span>
-						<span class="fa fa-google-plus"></span>
-						<img src="image/bullet.gif" alt="punto">
-						<small>Hace 12 minutos</small>
-						<img src="image/bullet.gif" alt="punto">
-						<small>POLÍTICA</small>
-					</div><!--fin de columnas-->
-				</div><!--Fin de renglon-->
-				<div class="row"><!--Renglon para fotos-->
-					<div class="col-md-6"><!--Imagen grane-->
-						<p>JNE impusará campaña en favor de la aprobación de la Reforma Electoral</p>
-					</div><!-- fin de imagen grande -->
-					<div class="col-md-6"><!--Imagencitas-->
-						<div class="row"><!--Primera imagen-->
-							<div class="col-md-16"><!--Columna para foto-->
-								<p>Martín Belaunde Lossio: Empresas vinculadas al empresario contrataron por S/. 3 000 millones | FOTOS</p>
-							</div><!--Fin de foto-->
-						</div><!--Fin de imagen-->
-						<div class="row"><!--Segunda imagen-->
-							<div class="col-md-16"><!--Columna para foto-->
-								<p>Sub 20: Perú vs Paraguay: bicolor empató 1-1 y pasó al hexagonal final del Sudamericano | VIDEO</p>
-							</div><!--Fin de foto-->
-						</div><!--Fin de imagen-->
-					</div><!--fin de imagencitas-->
-				</div><!--Fin de renglon-->
-			</div><!--Fin de container-->
-		</section><!-- fin de seccion -->
-		<section><!--Comentaristas-->
-			<div class="container"><!--Container-->
-				<div class="row">
-					<div class="col-md-12">
-						<h3>COLUMNISTAS</h3>
-					</div>
+		<div class="container-fluid">
+			<div class="row"><!--Renglon para contenido-->
+				<div class="col-md-2"><!-- banner izquierdo -->
 				</div>
-				<div class="row"><!-- renglon para fotos -->
-					<div></div>
+				
+				<article><!--Seccion de las fotos al incicio de home-->
+					<div class="col-md-12"><!--Contenido de home-->
+						<section>
+							<div class="row"><!--Renglon de titulo-->
+								<div class="col-md-16 text-center"><!--columnas titulo-->
+									<h1 class="fuerte">GUERRA EN LA MUNICIPALIDAD DE LIMA METROPOLITANA</h1>
+									<a href="https://www.facebook.com/"><span class="fa fa-facebook  azul sombra"></span></a>
+									<a href="https://twitter.com/"><span class="fa fa-twitter azulito sombra"></span></a>
+									<a href="https://plus.google.com/"><span class="fa fa-google-plus rojo sombra"></span></a>
+									<img src="image/bullet.gif" alt="punto">
+									<small>Hace 12 minutos</small>
+									<img src="image/bullet.gif" alt="punto">
+									<small>POLÍTICA</small>
+								</div><!--fin de columnas-->
+							</div><!--Fin de renglon-->
+							<div class="row mgt"><!--Renglon para fotos-->
+								<div class="col-md-8"><!--Imagen grane-->
+									<div class="señor">
+										<div class="deg">
+											<p class="blanca va fuerte f25">JNE impusará campaña en favor de la aprobación de la Reforma Electoral</p>
+										</div>
+									</div>
+								</div><!-- fin de imagen grande -->
+								<div class="col-md-8"><!--Imagencitas-->
+									<div class="row"><!--Primera imagen-->
+										<div class="col-md-16"><!--Columna para foto-->
+											<div class="foto2">
+												<div class="deg">
+													<p class="blanca va f18">Martín Belaunde Lossio: Empresas vinculadas al empresario contrataron por S/. 3 000 millones | FOTOS</p>
+												</div>
+											</div>
+										</div><!--Fin de foto-->
+									</div><!--Fin de imagen-->
+									<div class="row mgt"><!--Segunda imagen-->
+										<div class="col-md-16"><!--Columna para foto-->
+											<div class="foto3">
+												<div class="deg">
+													<p class="blanca va f18">Sub 20: Perú vs Paraguay: bicolor empató 1-1 y pasó al hexagonal final del Sudamericano | VIDEO</p>
+												</div>
+											</div>
+										</div><!--Fin de foto-->
+									</div><!--Fin de imagen-->
+								</div><!--fin de imagencitas-->
+							</div><!--Fin de renglon-->
+						</section>
+						<section class="gray mgts linearoja"><!--Columnistas-->
+							<div class="row"><!--  renglon de titulo-->
+								<div class="col-md-16"><!--columnas para titulo-->
+									<h3 class="titulo blanca text-center">COLUMNISTAS</h3>
+								</div><!--cierre de columasn-->
+							</div><!--fin de renglon de titulo  -->
+							<div class="row "><!-- renglon para fotos -->
+								<div class="col-md-16"><!-- espacio carusel-->
+									<div class=" responsive text-center">
+									    <div class="">
+									    	<img class="col" src="image/img_noticias_relacionadas_slider.jpg" alt="foto1">
+									    	<small>Mario Vargas Llosa</small>
+									    	<p class="fuerte">Megarrenuncia apulpinante</p>
+									    </div>
+									    <div>
+									    	<img class="col" src="image/img_blogueros.jpg" alt="foto2">
+									    	<small>Agusto Alvarez Rodrich</small>
+									    	<p class="fuerte">Respuesta a una derrota estridente</p>
+									    </div>
+									    <div>
+									    	<img class="col" src="image/img_noticias_relacionadas_slider.jpg" alt="foto1">
+									    	<small>Mario Vargas Llosa</small>
+									    	<p class="fuerte">Megarrenuncia apulpinante</p>
+									    </div>
+									    <div>
+									    	<img class="col" src="image/img_blogueros.jpg" alt="foto2">
+									    	<small>Agusto Alvarez Rodrich</small>
+									    	<p class="fuerte">Respuesta a una derrota estridente</p>
+									    </div>
+									    <div>
+									    	<img class="col" src="image/img_noticias_relacionadas_slider.jpg" alt="foto1">
+									    	<small>Mario Vargas Llosa</small>
+									    	<p class="fuerte">Megarrenuncia apulpinante</p>
+									    </div>
+									    <div>
+									    	<img class="col" src="image/img_blogueros.jpg" alt="foto2">
+									    	<small>Agusto Alvarez Rodrich</small>
+									    	<p class="fuerte">Respuesta a una derrota estridente</p>
+									    </div>
+									    <div>
+									    	<img class="col" src="image/img_noticias_relacionadas_slider.jpg" alt="foto1">
+									    	<small>Mario Vargas Llosa</small>
+									    	<p class="fuerte">Megarrenuncia apulpinante</p>
+									    </div>
+									    <div>
+									    	<img class="col" src="image/img_blogueros.jpg" alt="foto2">
+									    	<small>Agusto Alvarez Rodrich</small>
+									    	<p class="fuerte">Respuesta a una derrota estridente</p>
+									    </div>
+									    <div>
+									    	<img class="col" src="image/img_noticias_relacionadas_slider.jpg" alt="foto1">
+									    	<small>Mario Vargas Llosa</small>
+									    	<p class="fuerte">Megarrenuncia apulpinante</p>
+									    </div>
+									    <div>
+									    	<img class="col" src="image/img_blogueros.jpg" alt="foto2">
+									    	<small>Agusto Alvarez Rodrich</small>
+									    	<p class="fuerte">Respuesta a una derrota estridente</p>
+									    </div>
+									    <div>
+									    	<img class="col" src="image/img_noticias_relacionadas_slider.jpg" alt="foto1">
+									    	<small>Mario Vargas Llosa</small>
+									    	<p class="fuerte">Megarrenuncia apulpinante</p>
+									    </div>
+									    <div>
+									    	<img class="col" src="image/img_blogueros.jpg" alt="foto2">
+									    	<small>Agusto Alvarez Rodrich</small>
+									    	<p class="fuerte">Respuesta a una derrota estridente</p>
+									    </div>
+									    <div>
+									    	<img class="col" src="image/img_noticias_relacionadas_slider.jpg" alt="foto1">
+									    	<small>Mario Vargas Llosa</small>
+									    	<p class="fuerte">Megarrenuncia apulpinante</p>
+									    </div>
+									    <div>
+									    	<img class="col" src="image/img_blogueros.jpg" alt="foto2">
+									    	<small>Agusto Alvarez Rodrich</small>
+									    	<p class="fuerte">Respuesta a una derrota estridente</p>
+									    </div>
+									    <div>
+									    	<img class="col" src="image/img_noticias_relacionadas_slider.jpg" alt="foto1">
+									    	<small>Mario Vargas Llosa</small>
+									    	<p class="fuerte">Megarrenuncia apulpinante</p>
+									    </div>
+									    <div>
+									    	<img class="col" src="image/img_blogueros.jpg" alt="foto2">
+									    	<small>Agusto Alvarez Rodrich</small>
+									    	<p class="fuerte">Respuesta a una derrota estridente</p>
+									    </div>
+									    <div>
+									    	<img class="col" src="image/img_noticias_relacionadas_slider.jpg" alt="foto1">
+									    	<small>Mario Vargas Llosa</small>
+									    	<p class="fuerte">Megarrenuncia apulpinante</p>
+									    </div>
+									    <div>
+									    	<img class="col" src="image/img_blogueros.jpg" alt="foto2">
+									    	<small>Agusto Alvarez Rodrich</small>
+									    	<p class="fuerte">Respuesta a una derrota estridente</p>
+									    </div>
+
+									 </div>
+								</div><!-- fin de carruseñ -->
+							</div><!--cierre de reglon de fotos-->
+						</section><!--Fin de columnistas -->
+					</div><!--Fin de contenido de home-->
+				</article>
+				
+
+				<div class="col-md-2"><!--bnner derecho-->
 				</div>
-			</div><!--Fin de container-->
-		</section><!--Fin de comentaristas  -->
+			</div><!--Fin de renglon-->
+		</div>
+	<script src="js/respond.js"></script>
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script type="text/javascript">
+	    $(document).ready(function(){
+			$('.responsive').slick({
+				dots: true,
+				infinite: false,
+				speed: 300,
+				slidesToShow: 6,
+				slidesToScroll: 6,
+				responsive: [
+				{
+					breakpoint: 1024,
+					settings: {
+					slidesToShow: 3,
+					slidesToScroll: 3,
+					infinite: true,
+					dots: true
+				  }
+				},
+				{
+					breakpoint: 600,
+					settings: {
+					slidesToShow: 3,
+					slidesToScroll: 3
+					}
+				},
+				{
+				  breakpoint: 480,
+				  settings: {
+				    slidesToShow: 1,
+				    slidesToScroll: 1
+				  }
+				}
+				]
+				}); 
+		});
+  	</script>
 
 	</body>
 </html>
