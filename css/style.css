@@ -1,0 +1,150 @@
+
+
+
+
+
+/*-------------sections IMG-------------------------*/
+
+.backUno{
+	background-image: url(../image/img_especiales.jpg);
+	height:10em;
+	width: 100% ;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.backDos{
+	background-image: url(../image/img_especiales_aside.jpg);
+	height:10em;
+	width: 100% ;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.backTres{
+	background-image: url(../image/img_grid_especiales.jpg);
+	height:10em;
+	width: 100% ;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.backCuatro{
+	background-image: url(../image/un-image--thumb-01.jpg);
+	height:10em;
+	width: 100% ;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.fotoasize{
+	height:10em;
+	width: 120% ;
+	margin-left: -8%;
+}
+
+/*iconos de redes sociales*/
+.sombra{
+	background-color: #E6E6E6;
+	padding: 8px;
+	border-radius: 5px;
+	border-bottom: 3px solid;
+	width: 35px;
+}
+/*fondo*/
+.azul{
+	color:  #3b5998;
+}
+.azulito{
+	color:#00aced;
+}
+
+.rojo{
+	color: red;
+}
+.red{
+	color: #B20000;
+}
+.blancaR{
+	color: white;
+}
+.inLB{
+	display: inline;
+}
+
+.marg{
+	margin: 1%;
+}
+.pad{
+	padding:0% 5% ;
+
+}
+.padTop{
+	padding-top: 27%;
+}
+.padTop2{
+	margin-top: 15%;
+}
+.padBttmB{
+	padding-bottom: -15%;
+}
+.padNeg{
+	padding-left: -2%;	
+}
+.mglft{
+	margin-left: 25%;
+}
+.mglft2{
+	margin-left: -5%;
+}
+.mgnegative{
+	margin-left: -8%;
+}
+.mgrht{
+	margin-right: 5%;
+}
+.mgtop{
+	margin-top: 5%;
+}
+.mgtop2{
+	margin-top: -100%;
+}
+.mgbttn{
+	margin-bottom: 5%;
+}
+.decotext{
+	text-decoration: none;
+}
+.tx-ch{
+	font-size: 70%;
+}
+.tx-ch2{
+	font-size: 80%;
+}
+
+.tx-md{
+	font-size: 100%;
+}
+.c-gray{
+	color: gray;
+}
+.c-blue{
+	color: blue;
+}
+.sombraicon{
+	background-color: lightgray;
+	padding: 1%;
+	border-radius: 5%;
+	border-bottom: 5%;
+}
+.cielcomment{
+	color: lightblue;
+}
+
+
+/*------FOOTER----*/
+
+footer{
+	background-color: lightgray;
+}
+.list{
+	list-style: none;
+}
+
+
