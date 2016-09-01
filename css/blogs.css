@@ -1,5 +1,5 @@
 /*Adapta columnas a tamaños iguales*/
-div.col-md-5, div.col-md-6{
+div.col-md-6, div.col-md-4{
 	width: 33.33333333%
 }
 /*bordes de blog*/
@@ -7,6 +7,7 @@ div.col-md-5, div.col-md-6{
 	border:1px gray solid;
 	height: 100%;
 	position: relative;
+	padding: 3%;
 }
 /*Fondo gris de foto*/
 .gray{
@@ -22,19 +23,37 @@ div.col-md-5, div.col-md-6{
 }
 /*alto de cada blog*/
 .alto{
-	height: 150px;
+	height: 230px;
 }
 /*ajusta imagenes*/
 .imagen{
 	width: 100%;
+	height: 75px;
+	border: 2px solid white;
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
 }
-
+/*coloca en la parte inferior el fondo gris*/
 .abajo{
-position:absolute; /*El div será ubicado con relación a la pantalla*/
-left:0px; /*A la derecha deje un espacio de 0px*/
-right:0px; /*A la izquierda deje un espacio de 0px*/
-bottom:0px; /*Abajo deje un espacio de 0px*/
-height:65px; /*alto del div*/
-/*z-index:0;*/
-
+	position:absolute; /*El div será ubicado con relación a la pantalla*/
+	left:3%; /*A la derecha deje un espacio de 0px*/
+	right:3%; /*A la izquierda deje un espacio de 0px*/
+	bottom:4%; /*Abajo deje un espacio de 0px*/
+	height:100px; /*alto del div*/
 }
+/*fuente bold*/
+.fuerte{
+	font-weight: bold;
+}
+/*fuente de 22 pixeles*/
+.font20{
+	font-size: 20px;
+}
+/*padding para fondo gris*/
+.pad{
+	padding: 4%;
+}
+/*padding para contenido de blogs*/
+.contenido{
+	padding: 0% 3%;
+}
+
